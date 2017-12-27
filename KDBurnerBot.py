@@ -23,6 +23,7 @@ def run_bot(r, comments_replied_to):
 			with open ("comments_replied_to.txt", "a") as f:
 				f.write(comment.id + "\n")
 
+    # Bot sleeps for 10 seconds
 	time.sleep(10)
 
 # To ensure that only one reply is given per comment, stores comments that were replied to in a list
